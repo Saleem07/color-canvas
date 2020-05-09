@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML5 Canvas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="draw" width="800" height="800"></canvas>
+
+    <div class="container">
+      <div class="container-child1">
+        <label for="colors">Pen Color:</label>
+        <input type="color" name="color" id="colors" />
+      </div>
+      <div class="container-child2">
+        <label for="back-color">Background:
+        <input type="color" name="color" id="back-color" />
+      </label>
+        <input type="button" value="Change" id="change-color" />
+      </div>
+      <div class="container-child3">
+        <label for="pen-weight">Pen Weight:</label>
+        <input
+          type="range"
+          name="range-rover"
+          id="pen-weight"
+          min="0"
+          max="100"
+          step="10"
+          value="10"
+        />
+      </div>
+      
+    </div>
+    <div class="container-child4">
+      <!-- <input type="button" value="Clear" id=""> -->
+      <a href="#" id="clear-btn">Clear</a>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech&display=swap');
+
+html, body {
+    margin: 0;
+    height:100vh;
+    box-sizing: border-box;
+   
+  }
+
+  canvas {
+      border-bottom:3px solid red;
+  }
+
+.container {
+    /* border:1px solid black; */
+    /* padding: 32.5px 25px; */
+    padding-top:10px;
+    padding-bottom: 31px;
+    position: relative;
+    top:-5px;
+    background: linear-gradient(to right, #b3ffab, #12fff7);
+
+    
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input[type="color"]{
+    padding:5px;
+    /* border-radius: 20px; */
+    border:none;
+    outline: none;
+    border-radius: 20px;
+
+}
+
+label {
+    font-weight: bold;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Share Tech', sans-serif;
+}
+
+input[type="range"]{
+    position: relative;
+    top:7px;
+}
+
+#change-color {
+    background: rgb(233, 231, 231);
+    border:none;
+    padding: 5px 25px;
+    border-radius:10px;
+    font-weight: bold;
+    position: relative;
+    top:12px;
+    
+}
+.container-child2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input[type="button"]{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+}
+
+#clear-btn {
+    background: rgb(233, 231, 231);
+    border:none;
+    padding: 5px 25px;
+    border-radius:10px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    position: absolute;
+    top:5px;
+    left:10px;
+    opacity:0.4;
+    transition: all 0.3s;
+
+
+   
+    
+}
+#clear-btn:hover {
+    opacity: 1;
+    transform: translate(-1px , -1px);
+    box-shadow: 1.5px 1.5px 0.5px rgba(0, 0, 0, 0.2);
+
+}
